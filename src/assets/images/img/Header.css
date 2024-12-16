@@ -1,0 +1,182 @@
+#main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#logo{
+  display: flex;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+#del{
+  display: flex;            
+    align-items: center;       
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);              
+    padding: 9px 20px;        
+    font-size: 16px;   
+    cursor: pointer; 
+    font-size: 20px;
+}
+#del .text:hover{
+  text-decoration:underline;
+}
+#account{
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 20px;
+}
+#top{
+  display: flex;
+}
+#Head{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 45px;
+}
+#Buttons{
+  padding-top: 10px;
+}
+#Buttons a{
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#btn{
+    display: flex;            
+    align-items: center;       
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);              
+    padding: 9px 20px;        
+    font-size: 16px;  
+    border-radius: 20px;        
+    border: 1px solid black;             
+    cursor: pointer;   
+}
+
+#bt{
+  display: flex;            
+  align-items: center;       
+  background-color: #000000; 
+  color: rgb(255, 255, 255);              
+  padding: 9px 20px;        
+  font-size: 16px;  
+  border-radius: 20px;        
+  border: 1px solid black;             
+  cursor: pointer;   
+}
+
+.icon {
+    margin-right: 8px;         
+    display: flex;            
+    align-items: center;       
+  }
+  #main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#logo{
+  display: flex;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+#del{
+  display: flex;            
+    align-items: center;       
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);              
+    padding: 9px 20px;        
+    font-size: 16px;   
+    cursor: pointer; 
+    font-size: 20px;
+}
+#del .text:hover{
+  text-decoration:underline;
+}
+#account{
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 20px;
+}
+#top{
+  display: flex;
+}
+#Head{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 45px;
+}
+#Buttons{
+  padding-top: 10px;
+}
+#Buttons a{
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#btn{
+    display: flex;            
+    align-items: center;       
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);              
+    padding: 9px 20px;        
+    font-size: 16px;  
+    border-radius: 20px;        
+    border: 1px solid black;             
+    cursor: pointer;   
+}
+
+#bt{
+  display: flex;            
+  align-items: center;       
+  background-color: #000000; 
+  color: rgb(255, 255, 255);              
+  padding: 9px 20px;        
+  font-size: 16px;  
+  border-radius: 20px;        
+  border: 1px solid black;             
+  cursor: pointer;   
+}
+
+.icon {
+    margin-right: 8px;         
+    display: flex;            
+    align-items: center;       
+  }
+  
+  .text {
+    display: flex;
+    align-items: center;       
+  }
+  #btn:hover{
+    background-color: black;
+    color: white;}
+
+  .text {
+    display: flex;
+    align-items: center;       
+  }
+  

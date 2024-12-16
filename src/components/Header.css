@@ -1,0 +1,202 @@
+/* General Header Styling */
+#Head {
+  background-color: #fff;
+  background-image: url(../assets/images/img/macrons.jpg); /* Clean white background */
+  padding: 20px 0;
+  font-family: 'Poppins', sans-serif;  /* Modern font */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+}
+
+/* Header Content Container */
+#header-content {
+  display: flex;
+  justify-content: space-between;  /* Distribute elements */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Logo Section (Centered) */
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  flex: 1;
+  justify-content: center;  /* Centers the logo */
+ /* Add rotation animation */
+}
+
+#logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 100%; 
+  animation: rotateLogo 10s linear infinite; /* Add rotation animation */
+}
+
+#logo h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #5047ff;  /* Bright tomato color */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  background: linear-gradient(45deg, #FF6347, #FFD700);  /* Vibrant gradient */
+  -webkit-background-clip: text;  /* Clip gradient to the text */
+  background-clip: text;
+  color: transparent;
+}
+
+/* Top Section with Account and Cart */
+#top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;  /* Align to the right side */
+}
+
+/* Account Section */
+#account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#account .profile-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+#account .profile-info .profile-image {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#account .profile-info span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Cart Section */
+#cart .button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #333;
+  text-decoration: none;
+}
+
+#cart .button .icon {
+  font-size: 1.5rem;
+}
+
+#cart .button .text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Separator between sections */
+#separator {
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Main Navigation Section */
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+/* Navigation Buttons */
+#navigation #Buttons {
+  display: flex;
+  gap: 20px;
+}
+
+#navigation #Buttons a {
+  text-decoration: none;
+  color: rgb(18, 15, 15);
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: color 0.3s, transform 0.3s;
+}
+
+#navigation #Buttons a:hover {
+  color: #FF6347;  /* Tomato color on hover */
+  transform: scale(1.05);  /* Subtle scale effect */
+}
+
+/* Delivery Info Section */
+#delivery-info {
+  display: flex;
+  align-items: center;
+}
+
+#delivery-info a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+#delivery-info a .icon {
+  font-size: 1.6rem;
+  margin-right: 8px;
+  color: #FFD700;  /* Golden color for icon */
+}
+
+#delivery-info a .text {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#delivery-info a:hover {
+  color: #FF6347;  /* Tomato color on hover */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  #header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #logo h1 {
+    font-size: 2rem;
+  }
+
+  #top {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #navigation #Buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+/* Continuous Logo Rotation Animation */
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

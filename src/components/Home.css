@@ -1,0 +1,508 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-image 1s ease-in-out;
+  }
+  
+  .hero-content {
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content .order-now-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #f1c40f;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .hero-content .order-now-btn:hover {
+    background-color: #e0a500;
+  }
+  
+  /* About Us Section */
+  .about {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about .container {
+    max-width: 1200px;background-image: url(../assets/images/img/almond.webp);
+    margin: 0 auto;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Video Section */
+  .video-section {background-image: url(../assets/images/img/b.avif);
+    padding: 40px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .video-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .video-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Menu Highlights Section */
+  .menu-highlights {
+    background-color: #fff;background-image: url(../assets/images/img/he.webp);
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .menu-highlights .container {background-image: url(../assets/images/img/he.webp);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu-highlights h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .menu-highlights p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .menu-items {
+    display: flex;background-image: url(../assets/images/img/he.webp);
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .menu-item {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .menu-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .menu-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .testimonials .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .testimonial {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  /* Special Offer Section */
+  .special-offer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .special-offer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .special-offer p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .order-now-btn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #f1c40f;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .order-now-btn:hover {
+    background-color: #e0a500;
+  }
+/* Featured Recipes Section */
+.featured-recipes {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .featured-recipes h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .recipes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Add spacing between the recipe items */
+    max-width: 1200px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .recipe-item {
+    width: 30%; /* Adjust this percentage to control the item width */
+    min-width: 250px; /* Ensure items don't get too small */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-item p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .recipe-link {
+    color: #f1c40f;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .recipe-link:hover {
+    text-decoration: underline;
+  }
+    /* Video Section Styles */
+.video-section {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for video */
+  .video-container {
+    width: 100%;
+    max-width: 960px; /* You can adjust this to fit your design */
+    aspect-ratio: 16 / 9; /* Keep aspect ratio fixed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Video styling */
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the container without stretching */
+  }
+  
+  /* Optional: Styling for video caption or text */
+  .video-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .video-section p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  /* CSS to prevent default loading spinner */
+video::-webkit-media-controls-panel {
+    display: none !important;
+  }
+  
+  video::after {
+    content: none !important;
+  }
+  .testimonials {
+    background-color: #f8f9fa;background-image: url(../assets/images/img/banner.webp); /* Light background for the section */
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.8rem;
+    color: #4a90e2; /* Blue color for the header */
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .testimonial-cards {
+    display: flex;background-image: url(../assets/images/img/banner.webp);
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; /* Cards will wrap in smaller screens */
+  }
+  
+  .testimonial {
+    background: linear-gradient(145deg, #ff9a8b, #ff6a5b); /* Vibrant gradient for the card */
+    border-radius: 15px;
+    padding: 25px;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff; /* White text for good contrast */
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .testimonial:hover {
+    transform: scale(1.05); /* Slight scale up on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #ffe600; /* Yellow color for the text */
+  }
+  
+  .testimonial h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff; /* White for the customer name */
+  }
+  
+  .testimonial .highlight {
+    color: #f39c12; /* Orange color for a more striking effect on the customer’s highlight word */
+  }
+  
+  .testimonial .italic-text {
+    font-style: italic;
+    color: #fff;
+  }
+  
+  .testimonial .quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #fffa65; /* Lighter yellow for quotes */
+  }
+.featured-recipes {
+  padding: 50px 0;background-image: url(../assets/images/img/he.webp);
+  background-color: #931df9; /* Light background for the section */
+  text-align: center;
+}
+
+.featured-recipes h2 {
+  font-size: 2.8rem;
+  color: #e74c3c; /* Red color for the header */
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+.featured-recipes p {
+  font-size: 1.2rem;
+  color: #7f8c8d; /* Darker text for description */
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-family: 'Verdana', sans-serif;
+}
+
+.recipes-container {
+  display: flex;background-image: url(../assets/images/img/he.webp);
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap; /* Cards will wrap in smaller screens */
+}
+
+.recipe-item {background-color: #333;
+  background: linear-gradient(145deg, #ff6f61, #ff9b7d); /* Gradient from red to light orange */
+  border-radius: 10px;
+  padding: 30px;
+  width: 280px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Verdana', sans-serif;
+}
+
+.recipe-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.recipe-item p {
+  font-size: 1rem;
+  color: #ffe600; /* Yellow text for recipe description */
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.recipe-item .recipe-link {
+  display: inline-block;
+  background-color: #f39c12; /* Orange background for the link button */
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-item .recipe-link:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
+
+@media screen and (max-width:800px) {
+  .recipes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recipe-item {
+    width: 90%;
+  }
+}
+.hero {
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-image 1s ease-in-out;
+    background-image: url(../assets/images/img/a.avif);
+  }
+  
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark semi-transparent overlay */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    color: white;
+    position: relative; /* Ensures content stays above the overlay */
+  }
+  
