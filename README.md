@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# 🧁 Radhe Bakers - Delight in Every Bite! 🍰  
+> A beautiful and user-friendly bakery website made with ❤️ using React & TailwindCSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub Repo stars](https://img.shields.io/github/stars/Shristirajpoot/bakery?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/Shristirajpoot/bakery?color=brightgreen)
+![Built with](https://img.shields.io/badge/Built%20with-React%20%2B%20TailwindCSS-blue)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Overview
 
-### `npm start`
+**Radhe Bakers** is a visually appealing and responsive bakery website that showcases delicious baked goods with a clean, professional layout. Designed to mimic real-world bakery websites, this project demonstrates frontend development, styling with TailwindCSS, and user-friendly interaction flow.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+## 🎥 Demo Video
 
-### `npm test`
+📺 **Watch the walkthrough here:**  
+[![Radhe Bakers - Demo Video](https://img.youtube.com/vi/BdQrEu2_NrQ/0.jpg)](https://youtu.be/BdQrEu2_NrQ)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> 🔗 *Click the image or [watch on YouTube](https://youtu.be/BdQrEu2_NrQ)*
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Features
 
-### `npm run eject`
+- 🧁 Attractive homepage with a modern bakery feel
+- 🛒 Interactive and stylish **shopping cart**
+- 📦 Product listings with friendly UI
+- 📱 Fully responsive across devices
+- 🎨 Elegant color palette and fonts
+- 💬 “Remove” instead of “Delete” for friendliness
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Project Structure
+```plaintext
+bakery/
+├── public/ # Static files
+│ └── favicon, index.html
+│
+├── src/ # Main source code
+│ ├── components/ # Reusable UI parts (Navbar, ProductCard, etc.)
+│ ├── pages/ # Page layouts (Home, Cart)
+│ ├── assets/ # Images and icons
+│ ├── App.jsx # Main component with routes
+│ └── index.js # Entry point
+│
+├── package.json # Project metadata and dependencies
+├── tailwind.config.js # Tailwind customizations
+├── README.md # This file
+└── .gitignore # Git ignore rules
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🖼️ Screenshots
 
-## Learn More
+> 📸 Real views of the Radhe Bakers website:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Home Page | Bakers Page |
+|-----------|-----------------|
+| ![Screenshot1](./Screenshot%202025-06-11%20114051.png) | ![Screenshot2](./Screenshot%202025-06-11%20114034.png) |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Products Page | Review Page |
+|---------------|-------------|
+| ![Screenshot3](./Screenshot%202025-06-11%20114124.png) | ![Screenshot4](./Screenshot%202025-06-11%20114101.png) |
 
-### Code Splitting
+| Offer Page | Profile Page |
+|--------------------|---------------|
+| ![Screenshot5](./Screenshot%202025-06-11%20114112.png) | ![Screenshot6](./Screenshot%202025-06-11%20114257.png) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Product Page | Cart Page |
+|-------------|---------|
+| ![Screenshot7](./Screenshot%202025-06-11%20114135.png) | ![Screenshot8](./Screenshot%202025-06-11%20114147.png) |
 
-### Analyzing the Bundle Size
+| Delivery Page |Subtotal & Summary |
+|-------------|---------|
+| ![Screenshot7](./Screenshot%202025-06-11%20114207.png) | ![Screenshot8](./Screenshot%202025-06-11%20114222.png) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Webiste |
+|------------------|
+| ![Screenshot11](./Screenshot%202025-06-11%20114013.png) |
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚀 Getting Started
 
-### Advanced Configuration
+### 📦 Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm install
+▶️ Start Development Server
 
-### Deployment
+npm start
+```
+🌐 Visit http://localhost:3000 to see the website live.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🛠️ Built With
+- ⚛️ React.js
 
-### `npm run build` fails to minify
+- 🎨 Tailwind CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 💻 HTML5 + CSS3
+
+- 🧠 Functional Components
+
+## 👩‍💻 Author
+### Shristi Rajpoot
+- 📧 Email: shristirajpoot369@gmail.com
+- 🔗 GitHub: @Shristirajpoot
+
+## 📄 License
+This project is licensed under the MIT License.
+
+### 🌟 If you liked this project, consider starring the repo and sharing it!
