@@ -14,10 +14,10 @@ const Header = ({ cartItems }) => {
       <div id="header-content"> {/* Main flex container */}
         <div id="logo">
           <img
-            src="https://img.freepik.com/premium-vector/bakery-logo-design_260747-392.jpg"
+            src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=400"
             alt="Bakery Logo"
           />
-          <h1>Radhe Bakers</h1>
+          <h1>Kiran's Kitchen</h1>
         </div>
         <div id="top">
           <div id="account">
