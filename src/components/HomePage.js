@@ -43,8 +43,8 @@ const BakeryHomePage = () => {
       {/* Hero Section with Background Image Slideshow */}
       <header className="hero" style={{ backgroundImage: `url(${heroImages[currentHeroImage]})` }}>
         <div className="hero-content">
-          <h1>Welcome to Sweet Cravings Bakery</h1>
-          <p>Where Every Bite is a Taste of Happiness!</p>
+          <h1>Welcome to Kiran's Kitchen</h1>
+          <p>Home Cook👩🏻‍🍳 and Baker🍰 - Where Every Creation is Made with Love!</p>
           <button className="order-now-btn">Order Now</button>
         </div>
       </header>
@@ -54,7 +54,7 @@ const BakeryHomePage = () => {
         <div className="container">
           <h2>About Us</h2>
           <p>
-            At Sweet Cravings Bakery, we take pride in creating the finest cakes, pastries, and bread. Whether you're celebrating a special occasion or simply treating yourself, our treats are made with love and the best ingredients. Come visit us and taste the difference!
+            Welcome to Kiran's Kitchen! I'm a passionate home cook and baker specializing in delicious cakes, brownies, cheesecakes, and gourmet delicacies. Based in Gondal and Rajkot, I create customized cakes, muffins, brownies, and dessert jars that are perfect for any celebration. Every creation is made with love and the finest ingredients. DM me for ordering your favorite treats! 😋
           </p>
           <img src={aboutUsImage} alt="About Sweet Cravings Bakery" className="about-img" />
         </div>
@@ -63,8 +63,8 @@ const BakeryHomePage = () => {
       {/* Video Slideshow Section */}
       <section className="video-section" style={{ padding: "40px 0", backgroundColor: "#f0f0f0" }}>
         <div className="container">
-          <h2>Our Bakery Process</h2>
-          <p>Take a sneak peek into the magic behind our delicious creations. Watch how we bake with love and care!</p>
+          <h2>Kiran's Kitchen Process</h2>
+          <p>Take a sneak peek into the magic behind our delicious homemade creations. Watch how we bake with love and care!</p>
           <div className="video-container">
             <video 
 
@@ -87,28 +87,28 @@ loop // Key prop forces the video to restart on each change
       {/* Menu Highlights Section */}
       <section className="menu-highlights" style={{ backgroundColor: "#fff", padding: "40px 0" }}>
         <div className="container">
-          <h2>Our Bestsellers</h2>
-          <p>Indulge in our most loved baked goods — freshly made with premium ingredients every day.</p>
+          <h2>Our Specialties</h2>
+          <p>Indulge in our signature creations — customized cakes, brownies, cheesecakes, and gourmet delicacies made fresh to order.</p>
           <div className="menu-items">
             <div className="menu-item">
               <Link to="/products/Cakes">
                 <img src={chocolateImage} alt="Chocolate Delight" className="menu-item-img" />
-                <h3>Chocolate Delight</h3>
-                <p>Rich and decadent, our signature chocolate cake is a true crowd favorite!</p>
+                <h3>Customized Cakes</h3>
+                <p>Beautiful customized cakes for engagements, birthdays, and special occasions - made exactly how you want them!</p>
               </Link>
             </div>
             <div className="menu-item">
               <Link to="/products/Croissants">
                 <img src={croissantImage} alt="Buttery Croissants" className="menu-item-img" />
-                <h3>Flaky Croissants</h3>
-                <p>Golden, buttery layers that melt in your mouth — a French classic!</p>
+                <h3>Gourmet Brownies</h3>
+                <p>Rich, fudgy brownies with premium toppings and decorations that are simply irresistible!</p>
               </Link>
             </div>
             <div className="menu-item">
               <Link to="/products/Macarons">
                 <img src={macaronImage} alt="Colorful Macarons" className="menu-item-img" />
-                <h3>Macarons</h3>
-                <p>Light, crispy, and perfectly sweet, our macarons are a delightful treat for every occasion.</p>
+                <h3>Dessert Jars & Treats</h3>
+                <p>Individual dessert jars, cupcakes, and gourmet delicacies perfect for gifting or personal indulgence.</p>
               </Link>
             </div>
           </div>
@@ -118,19 +118,19 @@ loop // Key prop forces the video to restart on each change
       {/* Testimonials Section */}
       <section className="testimonials" style={{ backgroundColor: "#f0f0f0", padding: "40px 0" }}>
         <div className="container">
-          <h2>Why Customers Love Us</h2>
+          <h2>What Our Customers Say</h2>
           <div className="testimonial-cards">
             <div className="testimonial">
-              <p>"Sweet Cravings Bakery is simply the best! Their chocolate cake is the ultimate indulgence."</p>
-              <h4>&ndash; Sarah L.</h4>
+              <p>"Kiran's customized engagement cake was absolutely stunning! The taste was as amazing as the design."</p>
+              <h4>&ndash; Priya S.</h4>
             </div>
             <div className="testimonial">
-              <p>"The croissants are buttery perfection. I feel like I’m in Paris every time I have one!"</p>
-              <h4>&ndash; John D.</h4>
+              <p>"The dessert jars are my favorite! Perfect portion size and so beautifully presented. Highly recommend!"</p>
+              <h4>&ndash; Rahul M.</h4>
             </div>
             <div className="testimonial">
-              <p>"Every dessert I’ve tried is beyond amazing. I can't recommend Sweet Cravings Bakery enough!"</p>
-              <h4>&ndash; Emily R.</h4>
+              <p>"The brownies are to die for! Kiran's attention to detail and quality is unmatched. Will definitely order again!"</p>
+              <h4>&ndash; Neha P.</h4>
             </div>
           </div>
         </div>
@@ -139,22 +139,22 @@ loop // Key prop forces the video to restart on each change
       {/* Featured Recipes Section */}
       <section className="featured-recipes" style={{ padding: "40px 0", backgroundColor: "#fff" }}>
         <div className="container">
-          <h2>Featured Recipes</h2>
-          <p>Explore some of our most popular recipes, from decadent cakes to mouthwatering pastries.</p>
+          <h2>Our Signature Creations</h2>
+          <p>Discover the art behind our most popular creations, from customized cakes to gourmet desserts.</p>
           <div className="recipes-container">
             <div className="recipe-item">
-              <h3>Chocolate Cake Recipe</h3>
-              <p>Learn how to make our famous chocolate cake at home with this step-by-step guide.</p>
+              <h3>Engagement Cakes</h3>
+              <p>Beautiful multi-tier cakes with elegant decorations, perfect for your special moments.</p>
               <Link to="https://youtu.be/Xj3aZog5iA8?si=Y5OFi2SKjc2ICKuw" className="recipe-link">See Recipe</Link>
             </div>
             <div className="recipe-item">
-              <h3>Macaron Recipe</h3>
-              <p>Discover the art of making perfect macarons with this easy-to-follow recipe.</p>
+              <h3>Dessert Jars</h3>
+              <p>Layered dessert jars with rich flavors and beautiful presentation - perfect for any occasion.</p>
               <Link to="https://youtu.be/MjVgIXccYXA?si=psWkJSp5stkirEmR" className="recipe-link">See Recipe</Link>
             </div>
             <div className="recipe-item">
-              <h3>Flaky Croissants Recipe</h3>
-              <p>Our buttery croissants are a fan favorite — learn how to make them at home.</p>
+              <h3>Gourmet Brownies</h3>
+              <p>Rich, decadent brownies with premium toppings and artistic decorations.</p>
               <Link to="https://youtu.be/mT4cqHc4HqU?si=0WvuufXlGnmZcFjR" className="recipe-link">See Recipe</Link>
             </div>
           </div>
@@ -163,9 +163,9 @@ loop // Key prop forces the video to restart on each change
 
       {/* Special Offer Section */}
       <section className="special-offer" style={{ padding: "40px 0", textAlign: "center" }}>
-        <h2>Special Offer for You!</h2>
-        <p>For a limited time, get 10% off your first order! Don’t miss out on this sweet deal.</p>
-        <button className="order-now-btn">Claim Your Discount</button>
+        <h2>Ready to Order?</h2>
+        <p>DM us for custom orders! Based in Gondal and Rajkot - we create personalized treats just for you.</p>
+        <button className="order-now-btn">Contact Us</button>
       </section>
     </div>
   );

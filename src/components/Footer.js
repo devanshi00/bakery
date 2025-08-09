@@ -10,15 +10,16 @@ const Footer = () => {
         </div>
 
         <div className="footer-section contact">
-          <h2>Contact Us</h2>
-          <p>Email: info@randombakers.com</p>
-          <p>Phone: +123 456 7890</p>
-          <p>Address: Random Bakers, Post Khamaria, Jabalpur, Madhya Pradesh 482005</p>
+          <h2>Contact Kiran's Kitchen</h2>
+          <p>Email: kirans.kitchen@gmail.com</p>
+          <p>Phone: +91 98765 43210</p>
+          <p>Locations: Gondal & Rajkot, Gujarat</p>
+          <p>DM for custom orders and inquiries!</p>
         </div>
 
         <div className="footer-info">
-          <p>© 2024 Random Bakers. All rights reserved.</p>
-          <p>Follow us on social media to stay updated on new arrivals, exclusive offers, and more!</p>
+          <p>© 2024 Kiran's Kitchen. All rights reserved.</p>
+          <p>Home Cook👩🏻‍🍳 and Baker🍰 - Follow us for daily updates on fresh creations!</p>
           <p>
             Follow us on:
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a> | 

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 const ProductPage = ({ products, addToCart }) => {
   const { category } = useParams(); // Get category from the URL
-  const categories = ["Cakes", "Macarons", "Croissants"];
+  const categories = ["Cakes", "Dessert Jars", "Brownies", "Cupcakes"];
   
   const [filteredProducts, setFilteredProducts] = useState([]);
   
